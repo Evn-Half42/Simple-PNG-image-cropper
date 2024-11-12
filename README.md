@@ -3,7 +3,7 @@ Simple PNG cropping script
 #Copyright (C) <2024>  <Tobias Cruz de Melo>
 #Author : Even_Half42 - `Cruz de Melo Tobias`
 
-Ce script permet le redimensionnement d'images au format JPG.
+Ce script permet le redimensionnement d'images au format PNG.
 Il a été créé spécifiquement pour Simon Laugier, les paramètres par défaut sont donc les siens.
 Cependant n'hésitez pas a forker mon travail !
 Aucune modification des pixels.
