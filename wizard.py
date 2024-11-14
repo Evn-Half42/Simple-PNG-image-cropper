@@ -5,6 +5,14 @@
 from PIL import Image
 import os, sys, signal
 
+DEFAULT_X = 28
+DEFAULT_Y = 34
+
+
+
+#params for Simon pics = (p_x = 28, p_y = 34) -> explain the default parameters
+
+
 def ask(question:str):
     """
     Input the question
@@ -22,8 +30,6 @@ def ask(question:str):
     else:
         return 'Undefined'
 
-#params for Simon pics = (p_x = 28, p_y = 34) -> explain the default parameters
-
 class Wizard():
     """Class for cropping pictures"""
     def __init__(self,params:dict) -> None:
@@ -31,8 +37,8 @@ class Wizard():
         self.input_filename = params['entry']
         self.output_filename = params['outry']
         self.img = None
-        self.p_x = params['p_x'] if params['p_x']!=-42 else 28
-        self.p_y = params['p_y'] if params['p_y']!=-42 else 34
+        self.p_x = params['p_x'] if params['p_x']!=-42 else
+        self.p_y = params['p_y'] if params['p_y']!=-42 else
         self.overwrite = params['overwrite']
         self.auto_close = False
         self.help_required = params['help']
