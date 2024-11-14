@@ -37,8 +37,8 @@ class Wizard():
         self.input_filename = params['entry']
         self.output_filename = params['outry']
         self.img = None
-        self.p_x = params['p_x'] if params['p_x']!=-42 else
-        self.p_y = params['p_y'] if params['p_y']!=-42 else
+        self.p_x = params['p_x'] if params['p_x']!=-42 else DEFAULT_X
+        self.p_y = params['p_y'] if params['p_y']!=-42 else DEFAULT_Y
         self.overwrite = params['overwrite']
         self.auto_close = False
         self.help_required = params['help']
